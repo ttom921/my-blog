@@ -34,20 +34,32 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      {/* <main>
-        <HomepageFeatures />
-      </main> */}
-      <div>
-        hello fires
-        <Link
-          className="button button--secondary button--lg"
-          to="/docs/intro">
-          testlikn ⏱️
-        </Link>
+      <div className='homepage-bg flex-warp'>
+        <div>
+          hello fires
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            testlikn ⏱️
+          </Link>
+
+          <a href="docs/intro" >linkto </a>
+        </div>
+      </div>
+      {/* <HomepageHeader />
+       <main>
+         <HomepageFeatures />
+       </main>
+       <div>
+         hello fires
+         <Link
+           className="button button--secondary button--lg"
+           to="/docs/intro">
+           testlikn ⏱️
+         </Link>
 
         <a href="docs/intro" >linkto </a>
-      </div>
+       </div> */}
     </Layout>
   );
 }
