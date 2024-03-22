@@ -17,3 +17,7 @@ last_update:
 
  ![actix_web](./img/actix_web_2024-03-22_11-19-25.png)
 
+
+
+
+ ![actix_web](./img/actix_web_2024-03-22_14-05-49.png)
