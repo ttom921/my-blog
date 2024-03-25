@@ -118,8 +118,8 @@ async fn main() -> std::io::Result<()> {
 ```bash
 cargo run
 ```
-![](./img/actix_web_2024-03-22_11-19-25.png)
-<img src="https://ttom921.github.io/my-blog/assets/images/actix_web_2024-03-22_11-19-25-790e5b435863c062ca02a5a761593ad0.png"/>
+
+<img src="https://github.com/ttom921/my-blog/blob/main/docs/學習/rust/img/actix_web_2024-03-22_11-19-25.png?raw=true"/>
 
 
 模組化開發
@@ -344,7 +344,9 @@ async fn main() -> std::io::Result<()> {
 
 然後執行 `cargo run`，就可以進行測試了。
 
-<img src="https://ttom921.github.io/my-blog/assets/images/actix_web_2024-03-22_14-05-49-da5124c1bcd499e835df7ebea6ee9350.png"/>
+<img src="https://github.com/ttom921/my-blog/blob/main/docs/學習/rust/img/actix_web_2024-03-22_14-05-49.png?raw=true"/>
+
+
 繼續新增其他的 Endpoint。
 
 GET /todos
