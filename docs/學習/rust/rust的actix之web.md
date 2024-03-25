@@ -118,7 +118,7 @@ async fn main() -> std::io::Result<()> {
 ```bash
 cargo run
 ```
-
+![](./img/actix_web_2024-03-22_11-19-25.png)
 <img src="https://ttom921.github.io/my-blog/assets/images/actix_web_2024-03-22_11-19-25-790e5b435863c062ca02a5a761593ad0.png"/>
 
 
