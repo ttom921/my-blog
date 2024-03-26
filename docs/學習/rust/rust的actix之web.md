@@ -551,3 +551,6 @@ impl Database {
 
 在這篇文章中，我們示範了如何使用 Actix Web 建立 REST API 。Actix Web 不僅為 Rust 開發者提供了強大的工具，還確保了我們的 API 具有卓越的性能和靈活性。隨著 Rust 在網頁開發領域的逐步崛起，相信 Actix Web 會成為更多開發者的首選。
 
+###### 參考資料
+如何使用 Actix Web 建立 REST API
+https://5xcampus.com/posts/build-restful-api-with-actix-web

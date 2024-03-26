@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />">
       <div className='homepage-bg flex-warp'>
         <div>
-          hello fires
+          show text
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
