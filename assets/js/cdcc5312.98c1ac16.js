@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[5077],{2182:l=>{l.exports=JSON.parse('{"label":"ubuntu","permalink":"/my-blog/blog/tags/ubuntu","allTagsPath":"/my-blog/blog/tags","count":1,"unlisted":false}')}}]);
