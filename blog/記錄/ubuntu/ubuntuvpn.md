@@ -1,5 +1,4 @@
 ---
-
 title: ubuntu的vpn連線
 authors: ttom
 tags: [ubuntu, vpn]
@@ -12,6 +11,7 @@ tags: [ubuntu, vpn]
 目前客戶是使用l2tp來連線，所來首先以windown內建一vpn來連線測試連線是否正常
 安裝套件
 ------
+sudo ike-scan chexxx.com.tw --sport=0
 ```bash
 sudo apt-get update
 sudo apt-get install xl2tpd
@@ -145,8 +145,16 @@ Check the logs:
 dmesg | less /var/log/xl2tpd.log
 
 ```
+用到的指令
+```bash
+sudo lsof -t -i:500
+sudo kill -9 `sudo lsof -t -i:500`
 
+sudo lsof -t -i:4500
+sudo kill -9 `sudo lsof -t -i:4500`
+```
 ###### 參考文件
+https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/docs/clients.md#configure-linux-vpn-clients-using-the-command-line
 https://github.com/feng-zh/docker-ipsec-vpn-client?tab=readme-ov-file
 https://github.com/emmdim/docker-ipsec-vpn-client?tab=readme-ov-file
 https://github.com/r0hm1/l2tp-vpn-client
