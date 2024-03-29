@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ttom921.github.io/my-blog/修理</id>
+    <title>建造中的我 Blog</title>
+    <updated>2024-03-29T06:06:23.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ttom921.github.io/my-blog/修理"/>
+    <subtitle>建造中的我 Blog</subtitle>
+    <icon>https://ttom921.github.io/my-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[修理測試相關]]></title>
+        <id>https://ttom921.github.io/my-blog/修理/fixed</id>
+        <link href="https://ttom921.github.io/my-blog/修理/fixed"/>
+        <updated>2024-03-29T06:06:23.000Z</updated>
+        <summary type="html"><![CDATA[來記錄一些有關修理測試]]></summary>
+        <content type="html"><![CDATA[<p>來記錄一些有關修理測試</p>]]></content>
+        <author>
+            <name>tom tang</name>
+            <uri>https://github.com/ttom921</uri>
+        </author>
+        <category label="修理" term="修理"/>
+    </entry>
+</feed>
