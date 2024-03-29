@@ -5,6 +5,112 @@ tags: [docusaurus相關]
 ---
 來記錄一些有關docusaurus有修改了什麼
 <!--truncate-->
+多個blog
+-------
+因為blog也要分類不然會寫太多在同一個資料夾裏面，所以來分類一下在`presets`和`themeConfig`中來加入，有幾個加幾個如下
+```typescript
+  presets: [
+    //...
+  ],
+  //#region 多個blog
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        blogSidebarTitle: '所有文章',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 10, //每頁顯示文章數
+        //
+        id: 'life',
+        routeBasePath: '生活',
+        path: './生活',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        blogSidebarTitle: '所有文章',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 10, //每頁顯示文章數
+        //
+        id: 'fixed',
+        routeBasePath: '修理',
+        path: './修理',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        blogSidebarTitle: '所有文章',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 10, //每頁顯示文章數
+        //
+        id: 'others',
+        routeBasePath: '雜項',
+        path: './雜項',
+      },
+    ],
+  ],
+  //#endregion 多個blog
+
+  themeConfig: {
+    //....
+  }
+```
+
+blog的下拉選單
+------
+在`docusaurus.config.ts`中的`themeConfig`將有關`blog`修改成如下的
+```typescript
+//導航欄
+    navbar: {
+      title: '建造中的我',
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
+      },
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: '文件',
+        },
+        //#region blog
+        {
+          type: 'dropdown',
+          position: 'left',
+          label: 'blog',
+          items: [
+            {
+
+              to: '/blog', label: 'blog',
+            },
+            {
+              to: '/生活', label: '生活',
+
+            },
+            {
+              to: '/修理', label: '修理',
+
+            },
+            {
+              to: '/雜項', label: '雜項',
+
+            },
+          ],
+        },
+        //#endregion blog
+        {
+          href: 'https://github.com/ttom921',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+
+    },
+    //導航欄
+```
 
 首頁修改
 ------
@@ -109,6 +215,7 @@ const config: Config = {
   title: '建造中的我',
   tagline: 'linux javascript angular rust stm32 ',
   favicon: 'img/favicon.ico',
+}
 ```
 多國語系(i18n)
 ------

@@ -44,10 +44,7 @@ const config: Config = {
           showReadingTime: true,
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://ttom921.github.io/my-blog/',
+          postsPerPage: 10, //每頁顯示文章數
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -55,10 +52,51 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  //#region 多個blog
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        blogSidebarTitle: '所有文章',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 10, //每頁顯示文章數
+        //
+        id: 'life',
+        routeBasePath: '生活',
+        path: './生活',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        blogSidebarTitle: '所有文章',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 10, //每頁顯示文章數
+        //
+        id: 'fixed',
+        routeBasePath: '修理',
+        path: './修理',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        blogSidebarTitle: '所有文章',
+        blogSidebarCount: 'ALL',
+        postsPerPage: 10, //每頁顯示文章數
+        //
+        id: 'others',
+        routeBasePath: '雜項',
+        path: './雜項',
+      },
+    ],
+  ],
+  //#endregion 多個blog
 
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    //導航欄
     navbar: {
       title: '建造中的我',
       logo: {
@@ -72,7 +110,31 @@ const config: Config = {
           position: 'left',
           label: '文件',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        //#region blog
+        {
+          type: 'dropdown',
+          position: 'left',
+          label: 'blog',
+          items: [
+            {
+
+              to: '/blog', label: 'blog',
+            },
+            {
+              to: '/生活', label: '生活',
+
+            },
+            {
+              to: '/修理', label: '修理',
+
+            },
+            {
+              to: '/雜項', label: '雜項',
+
+            },
+          ],
+        },
+        //#endregion blog
         {
           href: 'https://github.com/ttom921',
           label: 'GitHub',
@@ -81,6 +143,8 @@ const config: Config = {
       ],
 
     },
+    //導航欄
+
     //側邊框隱藏按鈕
     docs: {
       sidebar: {
