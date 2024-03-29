@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '建造中的我',
+  tagline: 'linux javascript angular rust stm32 ',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-tw',
-    locales: ['zh-tw'],
+    defaultLocale: 'zh-hant',
+    locales: ['zh-hant'],
   },
 
   presets: [
@@ -79,7 +79,6 @@ const config: Config = {
           position: 'right',
         },
       ],
-
 
     },
     //側邊框隱藏按鈕
