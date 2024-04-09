@@ -235,8 +235,47 @@ const config: Config = {
   },
 }
 ```
+## plantuml
+參考 https://github.com/akebifiky/remark-simple-plantuml#integration
+安裝
+```
+npm install --save @akebifiky/remark-simple-plantuml
+```
 
+在`docusaurus.config.ts`中
+```typescript
 
+//....
+const simplePlantUML = require("@akebifiky/remark-simple-plantuml");
+const config: Config = {
+    //....
+   presets: [
+    [
+      'classic',
+      {
+        docs: {
+          sidebarPath: './sidebars.ts',
+          remarkPlugins: [simplePlantUML],
+          //....
+        },
+        blog: {
+         //....
+          remarkPlugins: [simplePlantUML],
+        },
+        //....
+      } satisfies Preset.Options,
+    ],
+  ],
+  //....
+}
+
+```
+
+## docusaurus升級
+```
+npm i @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest @docusaurus/types@latest`
+
+```
 
 ##### 參考資料
 https://from8to8.com/docs/Website/basic/GUI/

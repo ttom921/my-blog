@@ -1,7 +1,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-
+const simplePlantUML = require("@akebifiky/remark-simple-plantuml");
 const config: Config = {
   title: '建造中的我',
   tagline: 'linux javascript angular rust stm32 ',
@@ -35,6 +35,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          remarkPlugins: [simplePlantUML],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -44,7 +45,8 @@ const config: Config = {
           showReadingTime: true,
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
-          postsPerPage: 10, //每頁顯示文章數
+          postsPerPage: 10, //每頁顯示文章數,
+          remarkPlugins: [simplePlantUML],
         },
         theme: {
           customCss: './src/css/custom.css',

@@ -86,3 +86,31 @@ Or build your site to include all the locales at once:
 ```bash
 npm run build
 ```
+
+# Your markdown including PlantUML code block
+
+```plantuml Your title
+class SimplePlantUMLPlugin {
+    + transform(syntaxTree: AST): AST
+}
+```
+
+```plantuml
+@startuml
+skinparam ActorBackgroundColor gray
+'actor 背景顏色'
+skinparam UseCaseBackgroundColor gray
+'UseCase 背景顏色'
+
+'可以使用兩個::來表示actor或""來表示actor或actor'
+:Customer1:
+"Customer2"
+actor Customer3
+'可以使用()來表示用例或usercar來表示'
+(Withdraw Cash)
+usecase First
+
+@enduml
+```
+
+- [URL path to another document](./manage-docs-versions)
