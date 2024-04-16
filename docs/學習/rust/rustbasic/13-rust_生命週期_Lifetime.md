@@ -5,7 +5,7 @@ description: _生命週期_Lifetime
 keywords:
   - rust
 last_update:
-  date: 15/11/2024
+  date: 4/15/2024
   author: ttom
 ---
 在前面的「所有權（Ownership）」章節曾經介紹 Rust 是如何透過所有權的轉讓與出借，來決定是否要釋放不再使用的記憶體空間，但其實在介紹所有權的時候，我們有省略了一些東西。
