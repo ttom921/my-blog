@@ -68,6 +68,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 ```
 
 從 Rust 編譯器給的訊息可以看的出來恐慌是在哪個檔案的哪一行造成的。剛剛這個範例只有一行太簡單，我故意來弄的複雜一點：
+```rust
 
 fn main() {
     hello();
@@ -84,11 +85,13 @@ fn world() {
 fn hey() {
     panic!("😱😱😱😱😱😱😱");  // 在這裡引爆
 }
+```
 執行之後會得到的結果是：
-
+```cmd
 $ cargo run                 
 thread 'main' panicked at '😱😱😱😱😱😱😱', src/main.rs:14:5
 note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+```
 Rust 告訴你 Panic 是在第 14 行發生的，看原始碼看一下子就能看出第 14 行是 hey() 函數，但光這樣的訊息不足以看出是誰呼叫這個函數造成恐慌的。我知道在上面的範例其實還是有點簡單，一眼就能抓出兇手是誰，但如果在比較複雜的系統想要揪出犯人是誰的話，backtrace 就很重要了。
 
 如果想要看更詳細的 backtrace，如同 Rust 編譯器給的提示，可以在執行的時候加個環境變數 RUST_BACKTRACE=1：
