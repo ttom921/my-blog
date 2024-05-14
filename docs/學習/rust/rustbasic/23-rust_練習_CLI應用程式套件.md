@@ -5,7 +5,7 @@ description: _練習_CLI應用程式套件
 keywords:
   - rust
 last_update:
-  date: 5/16/2024
+  date: 5/13/2024
   author: ttom
 ---
 練了這麼陣子的 Rust，不寫點東西練練手有點說不過去，這個章節我們就用我們前面學過的內容，先從最簡單的 CLI（Command-Line Interface）的程式開始吧。所以寫個 BMI 的計算機。
