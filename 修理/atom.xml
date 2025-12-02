@@ -2,11 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ttom921.github.io/my-blog/修理</id>
     <title>建造中的我 Blog</title>
-    <updated>2024-03-29T06:06:23.000Z</updated>
+    <updated>2025-12-02T10:57:58.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ttom921.github.io/my-blog/修理"/>
     <subtitle>建造中的我 Blog</subtitle>
     <icon>https://ttom921.github.io/my-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[NDSL相關]]></title>
+        <id>https://ttom921.github.io/my-blog/修理/ndsl/NDSL相關</id>
+        <link href="https://ttom921.github.io/my-blog/修理/ndsl/NDSL相關"/>
+        <updated>2025-12-02T10:57:58.000Z</updated>
+        <summary type="html"><![CDATA[來記錄一些有關NDSL修理]]></summary>
+        <content type="html"><![CDATA[<p>來記錄一些有關NDSL修理</p>
+<p>還好現在這個網路資訊爆炸的時代<br>
+<!-- -->主機拆解教學還滿容易找到的<br>
+<!-- -->所以我當然要借用一下前人的經驗來大搞破壞一番<br>
+<!-- -->順便來個不專業拆機過程講解（？）</p>
+<p>先聲明一下，這篇只是覺得有趣才順便寫的，而且圖解也不完整<br>
+<!-- -->如果有人看了這篇文跑去拆機又拆失敗的話，本人不負任何責任</p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_01.jpg?raw=true">
+<p><strong>▲替換用的電池及上螢幕</strong></p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_02.jpg?raw=true">
+<p><strong>▲多虧有保護殼，用了好幾年的機器仍然沒有半點刮傷</strong></p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_03.jpg?raw=true">
+<p><strong>▲先把電池蓋打開以後，取出電池<br>
+<!-- -->　然後將外殼螺絲全部取下<br>
+<!-- -->　有兩顆隱藏的，要先把軟墊撬開（圖右上）</strong></p>
+<p><strong>由於需要特殊的Ｙ字起子，我跑了一整天家庭五金都沒賣<br>
+<!-- -->　所以只好在網拍買了一把</strong></p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_04.jpg?raw=true">
+<p><strong>▲將ＬＲ鍵取下（記得軸心跟彈簧不要弄丟）<br>
+<!-- -->　把上螢幕四周的軟墊撬開，取下螺絲<br>
+<!-- -->　這樣就可以拆掉上螢幕外殼</strong></p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_05.jpg?raw=true">
+<p><strong>▲仔細地拔掉Wifi模組、麥克風以及上螢幕排線<br>
+<!-- -->　上下就可以完全分離</strong></p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_06.jpg?raw=true">
+<p><strong>▲拆下來的舊螢幕（下）與準備要替換的新螢幕（上）<br>
+<!-- -->　這張圖跳過了一個步驟，就是從盒蓋軸心取出上螢幕排線<br>
+<!-- -->　因為軸心很窄，加上螢幕排線很脆弱，所以要慢慢來、多試幾次<br>
+<!-- -->　（舊螢幕反正都沒用了，所以我直接剪斷排線取出）</strong></p>
+<p><strong>然後因為喇叭是直接銲接在螢幕排線上<br>
+<!-- -->　所以必須移植到新螢幕上去</strong></p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_07.jpg?raw=true">
+<p><strong>▲移植完成<br>
+<!-- -->　原來銲接的技術沒退步<br>
+<!-- -->　連我自己都很驚訝（？）</strong></p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_08.jpg?raw=true">
+<p><strong>▲把零件全都反順序裝回去<br>
+<!-- -->　還順便把外殼清潔了一下</strong></p>
+<p>第一次裝好的時候，測試開機失敗<br>
+<!-- -->撥開機鈕後只有下螢幕閃一下，上螢幕沒動靜<br>
+<!-- -->接著就自動關機了</p>
+<p>所以只好拆開來再把上螢幕排線重插一次<br>
+<!-- -->第二次組裝回去再開機就正常了，虛驚一場</p>]]></content>
+        <author>
+            <name>tom tang</name>
+            <uri>https://github.com/ttom921</uri>
+        </author>
+        <category label="修理" term="修理"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[修理測試相關]]></title>
         <id>https://ttom921.github.io/my-blog/修理/fixed</id>

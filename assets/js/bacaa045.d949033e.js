@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_blog=globalThis.webpackChunkmy_blog||[]).push([[9598],{8130:t=>{t.exports=JSON.parse('{"authors":[{"name":"tom tang","title":"Soft Engineer","url":"https://github.com/ttom921","imageURL":"https://github.com/ttom921.png","key":"ttom","page":null,"count":1}]}')}}]);
