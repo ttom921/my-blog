@@ -15,16 +15,16 @@ date: 2025-12-02 10:57:58
 先聲明一下，這篇只是覺得有趣才順便寫的，而且圖解也不完整  
 如果有人看了這篇文跑去拆機又拆失敗的話，本人不負任何責任
 
-<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_01.jpg?raw=true" >
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_01.jpg?raw=true" />
 
 **▲替換用的電池及上螢幕**
 
 
-<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_02.jpg?raw=true" >
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_02.jpg?raw=true" />
 
 **▲多虧有保護殼，用了好幾年的機器仍然沒有半點刮傷**
 
-<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_03.jpg?raw=true" > 
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_03.jpg?raw=true" /> 
 
 **▲先把電池蓋打開以後，取出電池  
 　然後將外殼螺絲全部取下  
@@ -34,18 +34,18 @@ date: 2025-12-02 10:57:58
 　所以只好在網拍買了一把**
 
 
-<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_04.jpg?raw=true" > 
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_04.jpg?raw=true" /> 
 
 **▲將ＬＲ鍵取下（記得軸心跟彈簧不要弄丟）  
 　把上螢幕四周的軟墊撬開，取下螺絲  
 　這樣就可以拆掉上螢幕外殼**
 
-<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_05.jpg?raw=true" >
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_05.jpg?raw=true" />
 
 **▲仔細地拔掉Wifi模組、麥克風以及上螢幕排線  
 　上下就可以完全分離**
 
-<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_06.jpg?raw=true" >
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_06.jpg?raw=true" />
 
 **▲拆下來的舊螢幕（下）與準備要替換的新螢幕（上）  
 　這張圖跳過了一個步驟，就是從盒蓋軸心取出上螢幕排線  
@@ -56,13 +56,13 @@ date: 2025-12-02 10:57:58
 **然後因為喇叭是直接銲接在螢幕排線上  
 　所以必須移植到新螢幕上去**
 
-<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_07.jpg?raw=true" >
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_07.jpg?raw=true" />
 
 **▲移植完成  
 　原來銲接的技術沒退步  
 　連我自己都很驚訝（？）**
  
- <img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_08.jpg?raw=true" >
+ <img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_08.jpg?raw=true" />
  
  **▲把零件全都反順序裝回去  
 　還順便把外殼清潔了一下**
