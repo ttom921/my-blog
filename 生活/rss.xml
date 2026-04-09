@@ -4,10 +4,36 @@
         <title>建造中的我 Blog</title>
         <link>https://ttom921.github.io/my-blog/生活</link>
         <description>建造中的我 Blog</description>
-        <lastBuildDate>Fri, 29 Mar 2024 06:06:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Apr 2026 10:10:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-hant</language>
+        <item>
+            <title><![CDATA[格言相關]]></title>
+            <link>https://ttom921.github.io/my-blog/生活/格言/格言相關</link>
+            <guid>https://ttom921.github.io/my-blog/生活/格言/格言相關</guid>
+            <pubDate>Thu, 09 Apr 2026 10:10:00 GMT</pubDate>
+            <description><![CDATA[來記錄一些有關格言相關]]></description>
+            <content:encoded><![CDATA[<p>來記錄一些有關格言相關</p>
+<p>「平庸的老師教導，一般的老師解釋，優秀的老師展示，偉大的老師啟發。」
+—— 威廉亞瑟沃德</p>
+<blockquote>
+<p>The mediocre teacher tells. The good teacher explains. The superior teacher demonstrates. The great teacher inspires.
+— William Arthur Ward</p>
+</blockquote>
+<hr>
+<p>中國有一句話：「天道酬勤，地道酬善，學道酬苦，藝道酬心。」
+美國STEM（科學、技術、工程和數學）的專家奧克利教授（Barbara Oakley）說： 「我們愈把學習科目變得好玩，愈是破壞孩子學習困難科目的能力。」</p>
+<hr>
+<p>納瓦爾寶典</p>
+<p>具體地稱讚，籠統地批評</p>
+<p>你知道有些歌曲就是在腦中迴盪不去?你的想法也
+是如此,所以要慎選你閱讀的東西。平靜的心靈,
+健康的身體,一棟充滿愛的屋子,這些東西用錢買
+不到,要靠你去掙取。</p>
+<hr>]]></content:encoded>
+            <category>生活</category>
+        </item>
         <item>
             <title><![CDATA[生活測試相關]]></title>
             <link>https://ttom921.github.io/my-blog/生活/life</link>
