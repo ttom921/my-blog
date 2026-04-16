@@ -42,7 +42,7 @@ tags: [SEO]
 
 - 優點：爬蟲 100% 能抓到，不需執行 JavaScript。
 
-- 做法：在 <head> 標籤內加入腳本。
+- 做法：在 `<head>` 標籤內加入腳本。
 
 ```html
 <head>
