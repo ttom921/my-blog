@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_blog=globalThis.webpackChunkmy_blog||[]).push([[4185],{410:a=>{a.exports=JSON.parse('{"tags":[{"label":"\u8edf\u9ad4","permalink":"/my-blog/docs/tags/\u8edf\u9ad4","count":1},{"label":"game","permalink":"/my-blog/docs/tags/game","count":1}]}')}}]);
