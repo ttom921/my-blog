@@ -4,10 +4,25 @@
         <title>建造中的我 Blog</title>
         <link>https://ttom921.github.io/my-blog/修理</link>
         <description>建造中的我 Blog</description>
-        <lastBuildDate>Tue, 02 Dec 2025 10:57:58 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 Aug 2026 10:57:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-hant</language>
+        <item>
+            <title><![CDATA[霧燈開關的面版燈]]></title>
+            <link>https://ttom921.github.io/my-blog/修理/tierra/霧燈開關的面版燈</link>
+            <guid>https://ttom921.github.io/my-blog/修理/tierra/霧燈開關的面版燈</guid>
+            <pubDate>Mon, 31 Aug 2026 10:57:58 GMT</pubDate>
+            <description><![CDATA[來記錄一些有關Ford tierra修理]]></description>
+            <content:encoded><![CDATA[<p>來記錄一些有關Ford tierra修理</p>
+<p>車型:2004年tierra 1.6 aero 4D/A<br>
+<!-- -->發照:2005年1月</p>
+<p>零件12V 3mm的毛燈泡
+所需工具：小支一字起子、斜口鉗</p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/ndsl/NDS_S_01.jpg?raw=true">]]></content:encoded>
+            <category>修理</category>
+            <category>tierra</category>
+        </item>
         <item>
             <title><![CDATA[NDSL相關]]></title>
             <link>https://ttom921.github.io/my-blog/修理/ndsl/NDSL相關</link>
