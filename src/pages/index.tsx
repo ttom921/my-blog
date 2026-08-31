@@ -36,14 +36,14 @@ export default function Home(): JSX.Element {
       description="linux javascript angular rust stm32">
       <div className='homepage-bg flex-warp'>
         <div>
-          show text
+          {/* show text
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
             testlikn ⏱️
-          </Link>
+          </Link> */}
 
-          <a href="docs/intro" >linkto </a>
+          <a href="生活/格言/格言相關" >格言 </a>
         </div>
       </div>
       {/* <HomepageHeader />
