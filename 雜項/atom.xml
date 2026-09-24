@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ttom921.github.io/my-blog/雜項</id>
     <title>建造中的我 Blog</title>
-    <updated>2024-03-29T06:06:23.000Z</updated>
+    <updated>2026-09-24T10:31:58.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ttom921.github.io/my-blog/雜項"/>
     <subtitle>建造中的我 Blog</subtitle>
     <icon>https://ttom921.github.io/my-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[foobar2000相關]]></title>
+        <id>https://ttom921.github.io/my-blog/雜項/foobar2000</id>
+        <link href="https://ttom921.github.io/my-blog/雜項/foobar2000"/>
+        <updated>2026-09-24T10:31:58.000Z</updated>
+        <summary type="html"><![CDATA[來記錄一些有關foobar2000相關]]></summary>
+        <content type="html"><![CDATA[<p>來記錄一些有關foobar2000相關</p>
+<p>因為有時候用foobar2000來聽youtube, 因為有多的因素所以需要yt-dlp,來解碼，但是有時候yt-dlp需要外部的ffmpeg，會發生如下
+foo_youtube 外部檔案 ffmpeg 找不到</p>
+<p>當 foobar2000 的 Youtube Source (foo_youtube) 插件提示找不到外部 FFmpeg 時，通常是因為路徑設定錯誤或版本不符合要求。</p>
+<p>正確設定外部路徑打開 foobar2000，按 Ctrl + P 進入「參數選項」（Preferences）。找到 Tools (工具) 或 Playback 下方的 Youtube 來源設定。將 FFmpeg 來源從預設改為 External（外部），並手動瀏覽/指定放置 ffmpeg.exe 與 ffprobe.exe 的資料夾目錄（非選到 exe 檔案本身，而是指包含它們的資料</p>
+<p>目前foo_youtube可以使用的FFmpeg的版本
+<a href="https://github.com/GyanD/codexffmpeg/releases/tag/4.4.1" target="_blank" rel="noopener noreferrer" class="">https://github.com/GyanD/codexffmpeg/releases/tag/4.4.1</a></p>]]></content>
+        <author>
+            <name>tom tang</name>
+            <uri>https://github.com/ttom921</uri>
+        </author>
+        <category label="雜項" term="雜項"/>
+        <category label="foobar2000" term="foobar2000"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[雜項測試相關]]></title>
         <id>https://ttom921.github.io/my-blog/雜項/other</id>
