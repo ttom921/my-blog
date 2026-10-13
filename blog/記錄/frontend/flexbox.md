@@ -4,7 +4,7 @@ authors: ttom
 tags: [FlexBox]
 ---
 來記錄一些有關FlexBox的note
-<!--truncate-->
+<!-- truncate -->
 
 flexbox的屬性
 ------

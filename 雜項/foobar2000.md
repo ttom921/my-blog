@@ -6,7 +6,7 @@ date: 2026-09-24 10:31:58
 ---
 # 前言
 來記錄一些有關foobar2000相關
-<!--truncate-->
+<!-- truncate -->
 因為有時候用foobar2000來聽youtube, 因為有多的因素所以需要yt-dlp,來解碼，但是有時候yt-dlp需要外部的ffmpeg，會發生如下
 foo_youtube 外部檔案 ffmpeg 找不到
 

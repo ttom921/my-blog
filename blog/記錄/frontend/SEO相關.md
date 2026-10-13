@@ -4,7 +4,7 @@ authors: ttom
 tags: [SEO]
 ---
 因為公司的網站要來將SEO修改一下來記錄
-<!--truncate-->
+<!-- truncate -->
 # Angular SEO 實作步驟與優化
 
 - 在index.html裏設定Meta資料

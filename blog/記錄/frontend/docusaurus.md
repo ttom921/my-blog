@@ -4,7 +4,7 @@ authors: ttom
 tags: [docusaurus相關]
 ---
 來記錄一些有關docusaurus有修改了什麼
-<!--truncate-->
+<!-- truncate -->
 多個blog
 -------
 因為blog也要分類不然會寫太多在同一個資料夾裏面，所以來分類一下在`presets`和`themeConfig`中來加入，有幾個加幾個如下

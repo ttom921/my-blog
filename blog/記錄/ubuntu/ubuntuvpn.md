@@ -5,7 +5,7 @@ tags: [ubuntu, vpn]
 ---
 
 在ubuntu下來建立VPN,注意未成功
-<!--truncate-->
+<!-- truncate -->
 因為公司的客戶使VPN來連線，所以在jenins的主機也要來設定一下，可以直接連線來更新web的code和服務器上的code
 # L2TP/Ipsec連線
 目前客戶是使用l2tp來連線，所來首先以windown內建一vpn來連線測試連線是否正常
