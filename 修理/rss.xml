@@ -4,10 +4,29 @@
         <title>建造中的我 Blog</title>
         <link>https://ttom921.github.io/my-blog/修理</link>
         <description>建造中的我 Blog</description>
-        <lastBuildDate>Mon, 31 Aug 2026 10:57:58 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 10:57:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-hant</language>
+        <item>
+            <title><![CDATA[ODBII相關]]></title>
+            <link>https://ttom921.github.io/my-blog/修理/tierra/ODBII相關</link>
+            <guid>https://ttom921.github.io/my-blog/修理/tierra/ODBII相關</guid>
+            <pubDate>Tue, 13 Oct 2026 10:57:58 GMT</pubDate>
+            <description><![CDATA[來記錄一些有關Ford tierra修理]]></description>
+            <content:encoded><![CDATA[<p>來記錄一些有關Ford tierra修理</p>
+<p>ODB2的定義
+圖中黑字是OBDII母頭第16號腳是電源輸入（也就是車上的OBDII接頭）紅字就是公頭（也是要要插入車上OBDII的設備）
+<a href="https://www.mobile01.com/topicdetail.php?f=214&amp;t=3131815" target="_blank" rel="noopener noreferrer" class="">https://www.mobile01.com/topicdetail.php?f=214&amp;t=3131815</a></p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/tierra/odb2.jpg?raw=true">
+<p>診斷插座的定義</p>
+<img src="https://github.com/ttom921/ImgStg/blob/main/tierra/fo10-09.jpg?raw=true" width="300">
+<img src="https://github.com/ttom921/ImgStg/blob/main/tierra/diagnosti_17-8.jpg?raw=true" width="300">
+<p>目前只要接三條線就可以用FORScan 軟體讀到部份資料</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">MEM(KLM) -&gt; 7  pin(ODB2)</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">GND      -&gt; 5  pin</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">B+       -&gt; 16 pin(ODB2) </span><br></div></code></pre></div></div>]]></content:encoded>
+            <category>修理</category>
+            <category>tierra</category>
+        </item>
         <item>
             <title><![CDATA[中控台拆部份]]></title>
             <link>https://ttom921.github.io/my-blog/修理/tierra/中控台拆部份</link>
@@ -20,7 +39,7 @@
 <h1>2005 Ford Tierra 原廠音響與安卓機接線定義對照表</h1>
 <p>本定義適用於 2005 年 Ford Tierra (Aero / XT / SE 等車型)。安裝通用型無線方控與安卓機時，請依據此顏色對照進行並接或跨接。</p>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-電源控制與方控線路-power-control--swc">1. 電源、控制與方控線路 (Power, Control &amp; SWC)<a href="https://ttom921.github.io/my-blog/%E4%BF%AE%E7%90%86/tierra/%E4%B8%AD%E6%8E%A7%E5%8F%B0%E6%8B%86%E9%83%A8%E4%BB%BD#1-%E9%9B%BB%E6%BA%90%E6%8E%A7%E5%88%B6%E8%88%87%E6%96%B9%E6%8E%A7%E7%B7%9A%E8%B7%AF-power-control--swc" class="hash-link" aria-label="1. 電源、控制與方控線路 (Power, Control &amp; SWC)的直接連結" title="1. 電源、控制與方控線路 (Power, Control &amp; SWC)的直接連結" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-電源控制與方控線路-power-control--swc">1. 電源、控制與方控線路 (Power, Control &amp; SWC)<a href="https://ttom921.github.io/my-blog/%E4%BF%AE%E7%90%86/tierra/%E4%B8%AD%E6%8E%A7%E5%8F%B0%E6%8B%86%E9%83%A8%E4%BB%BD#1-%E9%9B%BB%E6%BA%90%E6%8E%A7%E5%88%B6%E8%88%87%E6%96%B9%E6%8E%A7%E7%B7%9A%E8%B7%AF-power-control--swc" class="hash-link" aria-label="1. 電源、控制與方控線路 (Power, Control &amp; SWC)的直�接連結" title="1. 電源、控制與方控線路 (Power, Control &amp; SWC)的直接連結" translate="no">​</a></h2>
 <table><thead><tr><th style="text-align:left">功能說明</th><th style="text-align:left">Tierra 原廠車端線色</th><th style="text-align:left">安卓機主線組線色</th><th style="text-align:left">方控接收盒接線方式</th></tr></thead><tbody><tr><td style="text-align:left"><strong>鑰匙啟動電 (ACC)</strong></td><td style="text-align:left"><strong>粉紅色底黑條紋</strong></td><td style="text-align:left"><strong>紅色</strong> (Red)</td><td style="text-align:left">💡 <strong>三線並接</strong>：原廠粉紅黑線 + 安卓機紅線 + 方控盒紅線</td></tr><tr><td style="text-align:left"><strong>車體接地 (GND)</strong></td><td style="text-align:left"><strong>純黑色</strong></td><td style="text-align:left"><strong>黑色</strong> (Black)</td><td style="text-align:left">💡 <strong>三線並接</strong>：原廠純黑線 + 安卓機黑線 + 方控盒黑線</td></tr><tr><td style="text-align:left"><strong>電瓶正極 (B+ / 長火線)</strong></td><td style="text-align:left"><strong>藍色底紅條紋</strong></td><td style="text-align:left"><strong>黃色</strong> (Yellow)</td><td style="text-align:left">直接與安卓機黃線對接（提供記憶電路）</td></tr><tr><td style="text-align:left"><strong>小燈偵測 (ILL / 螢幕調暗)</strong></td><td style="text-align:left"><strong>淺綠色底黑條紋</strong></td><td style="text-align:left"><strong>橘色</strong> (Orange)</td><td style="text-align:left">直接與安卓機橘線對接（開大燈時螢幕自動變暗）</td></tr><tr><td style="text-align:left"><strong>天線啟動 (ANT / 放大器)</strong></td><td style="text-align:left"><strong>藍色底黃條紋</strong></td><td style="text-align:left"><strong>藍色</strong> (Blue)</td><td style="text-align:left">直接與安卓機藍線對接（驅動原廠天線放大器）</td></tr><tr><td style="text-align:left"><strong>方控訊號 1 (KEY 1)</strong></td><td style="text-align:left"><em>(原廠無此線)</em></td><td style="text-align:left"><strong>棕色</strong> (Brown)</td><td style="text-align:left">💡 <strong>單獨對接</strong>：直接接方控接收盒的訊號線（橘或白）</td></tr><tr><td style="text-align:left"><strong>行動電話靜音 (MUTE)</strong></td><td style="text-align:left"><strong>純粉紅色</strong></td><td style="text-align:left"><em>(通常不接)</em></td><td style="text-align:left">早期原廠預留線，改裝安卓機直接空著並包妥絕緣</td></tr></tbody></table>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-喇叭線路-speakers">2. 喇叭線路 (Speakers)<a href="https://ttom921.github.io/my-blog/%E4%BF%AE%E7%90%86/tierra/%E4%B8%AD%E6%8E%A7%E5%8F%B0%E6%8B%86%E9%83%A8%E4%BB%BD#2-%E5%96%87%E5%8F%AD%E7%B7%9A%E8%B7%AF-speakers" class="hash-link" aria-label="2. 喇叭線路 (Speakers)的直接連結" title="2. 喇叭線路 (Speakers)的直接連結" translate="no">​</a></h2>
